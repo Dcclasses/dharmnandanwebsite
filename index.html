@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10172a">
+  <meta name="description" content="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ અને સાયબર કેફે, રાજકોટ. કોર્સ અને સાયબર કેફે સેવાઓ માટે WhatsApp પર સંપર્ક કરો.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="gu_IN">
+  <meta property="og:title" content="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે | રાજકોટ">
+  <meta property="og:description" content="કમ્પ્યુટર કોર્સ, ડિજિટલ સેવાઓ અને સાયબર કેફે માટે રાજકોટમાં સંપર્ક કરો.">
+  <meta property="og:url" content="https://dcclasses.onrender.com/">
+  <meta property="og:image" content="https://dcclasses.onrender.com/assets/dharmnandan-logo.png">
+  <link rel="canonical" href="https://dcclasses.onrender.com/">
+  <link rel="icon" type="image/png" href="/assets/dharmnandan-logo.png">
+  <title>ધર્મનંદન કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે | રાજકોટ</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #647084;
+      --paper: #f7f8fc;
+      --white: #fff;
+      --navy: #10172a;
+      --blue: #4263eb;
+      --mint: #dff8ef;
+      --line: #e7eaf1;
+      --green: #16834b;
+      font-family: "Nirmala UI", "Shruti", "Noto Sans Gujarati", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); line-height: 1.65; }
+    a { color: inherit; }
+    .wrap { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+    .topbar { background: var(--navy); color: #e7eaf3; font-size: .9rem; }
+    .topbar-inner { min-height: 42px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .topbar a { text-decoration: none; }
+    header { background: var(--white); border-bottom: 1px solid var(--line); }
+    .nav { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+    .brand-logo { width: 58px; height: 58px; flex: 0 0 58px; object-fit: contain; border-radius: 50%; background: #fff; filter: drop-shadow(0 6px 12px rgba(34,44,85,.18)); }
+    .brand strong { display: block; line-height: 1.3; }
+    .brand small { color: var(--muted); }
+    .nav-links { display: flex; align-items: center; gap: 24px; }
+    .nav-links a { font-size: .95rem; font-weight: 650; text-decoration: none; }
+    .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 9px; padding: 10px 18px; border: 0; border-radius: 12px; background: var(--green); color: white; font: inherit; font-weight: 750; text-decoration: none; transition: transform .18s ease, filter .18s ease; }
+    .button:hover { filter: brightness(.94); transform: translateY(-2px); }
+    .button-blue { background: var(--blue); }
+    .hero { padding: 76px 0 70px; overflow: hidden; background: radial-gradient(ellipse at 86% 20%, #e4e9ff 0, transparent 36%), linear-gradient(135deg, #fff 0%, #f5f7ff 100%); }
+    .hero-grid { display: grid; grid-template-columns: 1.25fr .75fr; align-items: center; gap: 55px; }
+    .eyebrow { display: inline-block; padding: 5px 12px; border-radius: 999px; background: var(--mint); color: #126a43; font-size: .9rem; font-weight: 750; }
+    h1 { max-width: 720px; margin: 17px 0 14px; font-size: clamp(2.2rem, 5vw, 3.8rem); line-height: 1.2; letter-spacing: -.025em; }
+    .hero p { max-width: 620px; margin: 0; color: var(--muted); font-size: 1.12rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    .hero-card { padding: 28px; border: 1px solid #e8ebf5; border-radius: 24px; background: rgba(255,255,255,.9); box-shadow: 0 20px 55px rgba(27,39,75,.09); }
+    .hero-card .icon { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 18px; background: #edf0ff; font-size: 1.8rem; }
+    .hero-card h2 { margin: 15px 0 6px; font-size: 1.35rem; }
+    .hero-card p { font-size: 1rem; }
+    .hero-card .address { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line); font-size: .95rem; }
+    section { padding: 72px 0; }
+    .section-heading { max-width: 690px; margin: 0 auto 34px; text-align: center; }
+    .section-heading h2 { margin: 0 0 8px; font-size: clamp(1.8rem, 4vw, 2.45rem); line-height: 1.25; }
+    .section-heading p { margin: 0; color: var(--muted); }
+    .services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .service { min-height: 245px; padding: 25px; border: 1px solid var(--line); border-radius: 18px; background: var(--white); }
+    .service-icon { width: 50px; height: 50px; display: grid; place-items: center; border-radius: 15px; background: #eef1ff; font-size: 1.5rem; }
+    .service h3 { margin: 14px 0 5px; font-size: 1.2rem; }
+    .service p { margin: 0 0 16px; color: var(--muted); }
+    .cyber-service-link { display: block; color: inherit; text-decoration: none; }
+    .text-link { color: var(--blue); font-weight: 750; text-decoration: none; }
+    .course-section { background: #eef2ff; }
+    .course-card { max-width: 900px; margin: 0 auto; padding: 32px; border: 1px solid #dfe5ff; border-radius: 22px; background: var(--white); box-shadow: 0 16px 40px rgba(27,39,75,.07); }
+    .course-title { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+    .course-title h3 { margin: 0 0 5px; font-size: 1.5rem; }
+    .course-title p { margin: 0; color: var(--muted); }
+    .course-badge { flex: 0 0 auto; padding: 6px 12px; border-radius: 999px; background: var(--mint); color: #126a43; font-size: .9rem; font-weight: 750; }
+    .course-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 24px; margin: 24px 0; padding: 0; list-style: none; counter-reset: course; }
+    .course-list li { display: flex; align-items: center; gap: 11px; min-height: 42px; counter-increment: course; }
+    .course-list li::before { content: counter(course, decimal-leading-zero); display: grid; width: 32px; height: 32px; flex: 0 0 32px; place-items: center; border-radius: 10px; background: #eef1ff; color: var(--blue); font-size: .78rem; font-weight: 800; }
+    .course-highlights { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 20px; border-top: 1px solid var(--line); }
+    .course-highlights span { padding: 7px 12px; border-radius: 10px; background: #f5f7fb; font-weight: 700; }
+    .course-action { margin-top: 22px; }
+    .extra-courses { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin-top: 22px; }
+    .extra-course { padding: 26px; border: 1px solid var(--line); border-radius: 18px; background: var(--white); }
+    .extra-course h3 { margin: 14px 0 5px; font-size: 1.35rem; }
+    .extra-course p { margin: 0 0 14px; color: var(--muted); }
+    .topic-list { margin: 0 0 18px; padding-left: 21px; }
+    .topic-list li { padding: 3px 0; }
+    .cyber-service-section { background: linear-gradient(180deg, #fff8f1, #fff 75%); }
+    .cyber-service-toggle { display: block; padding: 48px 0 28px; cursor: pointer; list-style: none; }
+    .cyber-service-toggle::-webkit-details-marker { display: none; }
+    .cyber-service-toggle .section-heading { margin-bottom: 0; }
+    .cyber-service-toggle::after { display: block; margin-top: 12px; color: #5145e5; content: "બધી વિગતો જોવા ક્લિક કરો ↓"; font-weight: 800; text-align: center; }
+    .cyber-service-section[open] .cyber-service-toggle::after { content: "વિગતો છુપાવવા અહીં ક્લિક કરો ↑"; }
+    .cyber-service-card { max-width: 900px; margin: 0 auto; padding: 20px 30px; border: 1px solid #f1e7dc; border-radius: 22px; background: #fff; box-shadow: 0 18px 48px rgba(114,76,45,.08); }
+    .cyber-service-list { margin: 0; }
+    .document-service { border-bottom: 1px solid #f0edf3; }
+    .document-service:last-child { border-bottom: 0; }
+    .document-service > summary { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 13px 10px; cursor: pointer; font-weight: 750; list-style: none; }
+    .document-service > summary::-webkit-details-marker { display: none; }
+    .document-service > summary::after { display: grid; width: 28px; height: 28px; flex: 0 0 28px; place-items: center; border-radius: 9px; background: #eeeaff; color: #5145e5; content: "+"; font-size: 1.15rem; }
+    .document-service[open] > summary::after { content: "−"; }
+    .document-content { padding: 0 14px 18px; color: var(--muted); }
+    .document-brand { margin: 0 0 12px; color: #5145e5; font-weight: 800; }
+    .document-content h4 { margin: 12px 0 4px; color: var(--ink); font-size: .98rem; }
+    .document-content ul { margin: 0; padding-left: 22px; }
+    .document-content li { padding: 2px 0; }
+    .document-disclaimer { margin: 0 0 12px; padding: 14px 16px; border-radius: 12px; background: #fff3dc; color: #664a19; font-size: .93rem; }
+    .document-group + .document-group { margin-top: 12px; }
+    .cyber-service-note { margin-top: 20px; padding: 18px 20px; border-radius: 14px; background: linear-gradient(110deg, #fff1dc, #e7f8f2); font-weight: 750; }
+    .updates { padding: 0 0 72px; }
+    .update-box { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 27px 30px; border-radius: 20px; background: #eaf0ff; }
+    .update-box h2 { margin: 0 0 4px; font-size: 1.35rem; }
+    .update-box p { margin: 0; color: var(--muted); }
+    .contact { color: white; background: var(--navy); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; align-items: start; }
+    .contact h2 { margin: 0 0 8px; font-size: clamp(1.8rem, 4vw, 2.35rem); }
+    .contact .intro { margin: 0; color: #c4cada; }
+    .contact-card { padding: 24px; border: 1px solid #30394f; border-radius: 18px; background: #182239; }
+    .contact-card p { margin: 0 0 13px; color: #e3e7f0; }
+    .contact-card p:last-child { margin-bottom: 0; }
+    .contact-card a { color: #aebeff; }
+    footer { padding: 18px 0; color: #bdc5d5; background: #0b1120; font-size: .9rem; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 12px; }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 30px, 560px); }
+      .nav { min-height: 68px; }
+      .nav-links { display: none; }
+      .hero { padding: 54px 0; }
+      .hero-grid, .contact-grid { grid-template-columns: 1fr; gap: 26px; }
+      .hero-card { max-width: 500px; }
+      section { padding: 56px 0; }
+      .services { grid-template-columns: 1fr; }
+      .service { min-height: auto; }
+      .course-card { padding: 22px; }
+      .course-list { grid-template-columns: 1fr; gap: 6px; }
+      .course-title { flex-direction: column; }
+      .extra-courses { grid-template-columns: 1fr; }
+      .cyber-service-toggle { padding: 32px 0 22px; }
+      .cyber-service-card { padding: 14px 16px; }
+      .document-content { padding-inline: 8px; }
+      .updates { padding: 0 0 56px; }
+      .update-box { align-items: flex-start; flex-direction: column; padding: 23px; }
+      footer .wrap { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+    :root {
+      --ink: #1d2142;
+      --muted: #656b86;
+      --paper: #faf9ff;
+      --navy: #211a50;
+      --blue: #5145e5;
+      --mint: #dcfce7;
+      --line: #e9e6f4;
+      --green: #0e9f6e;
+    }
+    body { background: linear-gradient(180deg, #fcfbff 0%, #f6f7ff 60%, #fff8f1 100%); }
+    .topbar { background: linear-gradient(90deg, #211a50, #4133a3 58%, #7138a8); }
+    header { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.92); backdrop-filter: blur(14px); }
+    .button { background: linear-gradient(115deg, #0da875, #13bd8a); box-shadow: 0 8px 18px rgba(14,159,110,.2); }
+    .button-blue { background: linear-gradient(115deg, #5145e5, #853bd0); box-shadow: 0 8px 18px rgba(81,69,229,.22); }
+    .hero {
+      position: relative;
+      padding: 88px 0 82px;
+      background:
+        radial-gradient(circle at 8% 15%, rgba(255,205,86,.24), transparent 22%),
+        radial-gradient(circle at 80% 6%, rgba(145,102,255,.18), transparent 28%),
+        linear-gradient(135deg, #fff 0%, #f5f2ff 55%, #eefaff 100%);
+    }
+    .hero::before, .hero::after { position: absolute; z-index: 0; border-radius: 50%; content: ""; pointer-events: none; }
+    .hero::before { width: 190px; height: 190px; right: -70px; bottom: -90px; background: rgba(255,175,95,.15); }
+    .hero::after { width: 75px; height: 75px; left: 42%; top: 9%; background: rgba(88,76,231,.08); }
+    .hero-brand-title { position: relative; z-index: 1; max-width: 980px; margin: 0 auto 38px; text-align: center; }
+    .hero-brand-title h1 { max-width: none; margin: 15px 0 0; font-size: clamp(2.2rem, 4.7vw, 4rem); line-height: 1.18; }
+    .hero-brand-title h1 span { display: block; color: transparent; background: linear-gradient(100deg, #5145e5, #9b3cb5 55%, #e35b8e); background-clip: text; -webkit-background-clip: text; }
+    .hero-grid { position: relative; z-index: 1; grid-template-columns: 1.1fr .9fr; gap: 42px; }
+    .hero-course-title { margin: 14px 0; color: #27215b; font-size: clamp(1.8rem, 3.2vw, 2.7rem); line-height: 1.25; }
+    .eyebrow { background: #e8e4ff; color: #4b36bc; }
+    h1 { font-size: clamp(2.4rem, 5.2vw, 4.2rem); }
+    .hero-art {
+      position: relative;
+      overflow: hidden;
+      padding: 22px;
+      border: 1px solid rgba(255,255,255,.65);
+      border-radius: 32px;
+      background: linear-gradient(145deg, #6558ed, #8b43d2 55%, #df63a4);
+      box-shadow: 0 28px 70px rgba(73,52,170,.25);
+    }
+    .hero-art::before, .hero-art::after { position: absolute; border: 1px solid rgba(255,255,255,.25); border-radius: 50%; content: ""; }
+    .hero-art::before { width: 235px; height: 235px; top: -110px; right: -75px; }
+    .hero-art::after { width: 150px; height: 150px; bottom: -88px; left: -45px; }
+    .hero-art svg { position: relative; z-index: 1; display: block; width: 100%; height: auto; }
+    .hero-float {
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 13px;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 14px;
+      background: rgba(255,255,255,.95);
+      color: #342b75;
+      font-size: .9rem;
+      font-weight: 800;
+      box-shadow: 0 12px 28px rgba(34,24,91,.18);
+      animation: bob 3.8s ease-in-out infinite;
+    }
+    .hero-float-one { top: 15%; left: -3%; }
+    .hero-float-two { right: -3%; bottom: 24%; animation-delay: -1.6s; }
+    .hero-details { padding: 18px 4px 0; }
+    .hero-details h2 { margin: 0 0 4px; font-size: 1.28rem; }
+    .hero-details p { margin: 0; color: var(--muted); font-size: .98rem; }
+    .hero-details .address { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.3); font-size: .9rem; }
+    .section-heading h2 { color: #27215b; }
+    .course-section { background: linear-gradient(180deg, #f1efff, #f9f8ff); }
+    .course-card { border-color: #e2ddff; box-shadow: 0 18px 55px rgba(69,54,164,.1); }
+    .course-badge { background: linear-gradient(120deg, #e5e0ff, #fbe0f2); color: #5535b8; }
+    .course-list li::before { background: linear-gradient(140deg, #ece9ff, #fbe7f2); color: #6345cf; }
+    .extra-course, .service { position: relative; overflow: hidden; border-color: #e9e5f4; box-shadow: 0 12px 34px rgba(38,35,88,.055); transition: transform .24s ease, box-shadow .24s ease; }
+    .extra-course::before, .service::before { position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #5f52e8, #cc58c7, #ffae57); content: ""; }
+    .extra-course:hover, .service:hover { transform: translateY(-7px); box-shadow: 0 20px 40px rgba(52,42,128,.13); }
+    .service-icon { background: linear-gradient(145deg, #e7e5ff, #ffe4ef); }
+    .extra-course:nth-child(4n+2) .service-icon { background: linear-gradient(145deg, #fff0c8, #ffdfd2); }
+    .extra-course:nth-child(4n+3) .service-icon { background: linear-gradient(145deg, #d8f8ec, #dcefff); }
+    .extra-course:nth-child(4n) .service-icon { background: linear-gradient(145deg, #fce0f7, #e7e0ff); }
+    .text-link { color: #5145e5; }
+    .update-box { background: linear-gradient(110deg, #e7e3ff, #e0f6ff 55%, #fff0db); }
+    .contact { background: linear-gradient(125deg, #211a50, #342576 60%, #532879); }
+    .contact-card { background: rgba(255,255,255,.08); backdrop-filter: blur(8px); }
+    .js [data-reveal] { opacity: 0; transform: translateY(22px); }
+    .js [data-reveal].is-visible { opacity: 1; transform: translateY(0); transition: opacity .65s ease, transform .65s cubic-bezier(.2,.8,.2,1); }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @media (max-width: 760px) {
+      .hero { padding: 58px 0; }
+      .hero-grid { grid-template-columns: 1fr; gap: 30px; }
+      .hero-brand-title { margin-bottom: 28px; }
+      .hero-brand-title h1 { font-size: clamp(2rem, 8vw, 3rem); }
+      .hero-art { max-width: 500px; margin-inline: auto; }
+      .hero-float-one { left: 0; }
+      .hero-float-two { right: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+      .js [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>રાજકોટમાં કમ્પ્યુટર ક્લાસિસ અને સાયબર કેફે</span>
+      <a href="tel:+917990069436">કૉલ કરો: 79900 69436</a>
+    </div>
+  </div>
+  <header>
+    <nav class="wrap nav" aria-label="મુખ્ય નેવિગેશન">
+      <a class="brand" href="#home" aria-label="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ, હોમ">
+        <img class="brand-logo" src="assets/dharmnandan-logo.png" alt="ધર્મનંદન કમ્પ્યુટર ક્લાસિસનો લોગો" width="58" height="58">
+        <span><strong>ધર્મનંદન</strong><small>કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="#course">CCC + AI કોર્સ</a>
+        <a href="#extra-courses">અન્ય કોર્સ</a>
+        <a href="#cyber-services">સાયબર સેવાઓ</a>
+        <a href="#updates">નવી માહિતી</a>
+        <a href="#contact">સંપર્ક</a>
+      </div>
+      <a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div class="hero-brand-title">
+          <span class="eyebrow">રાજકોટમાં કમ્પ્યુટર શિક્ષણ અને ડિજિટલ સેવાઓ</span>
+          <h1>ધર્મનંદન કમ્પ્યુટર ક્લાસિસ <span>&amp; સાયબર કેફે</span></h1>
+        </div>
+        <div class="hero-grid">
+          <div>
+            <span class="eyebrow">શીખો • જાણો • આગળ વધો</span>
+            <h2 class="hero-course-title">CCC કમ્પ્યુટર કોર્સ સાથે AI શીખો</h2>
+            <p>કમ્પ્યુટરની પાયાની સમજથી લઈને MS Office અને AI ટૂલ્સ સુધી શીખો.</p>
+            <div class="hero-actions">
+              <a class="button button-blue" href="#course">CCC + AI કોર્સ જુઓ</a>
+              <a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">WhatsApp પર પૂછો <span aria-hidden="true">↗</span></a>
+              <a class="button button-blue" href="#services">અન્ય સેવાઓ જુઓ</a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ">
+          <div class="hero-art">
+            <div class="hero-float hero-float-one">🎓 નવી કુશળતા</div>
+            <svg viewBox="0 0 520 340" role="img" aria-label="કમ્પ્યુટર અને શીખવાની રંગીન આકૃતિ">
+              <defs>
+                <linearGradient id="screenGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#b9f4e3"/>
+                  <stop offset="1" stop-color="#d8d5ff"/>
+                </linearGradient>
+                <linearGradient id="laptopGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#fff"/>
+                  <stop offset="1" stop-color="#d8d9f5"/>
+                </linearGradient>
+              </defs>
+              <circle cx="260" cy="170" r="132" fill="#ffffff" fill-opacity=".12"/>
+              <circle cx="115" cy="90" r="25" fill="#ffe58c"/>
+              <path d="M92 88l23-21 23 21-23 21z" fill="#fff5c8"/>
+              <path d="M397 75l5 14 14 5-14 5-5 14-5-14-14-5 14-5z" fill="#fff"/>
+              <rect x="115" y="78" width="290" height="183" rx="18" fill="url(#laptopGradient)"/>
+              <rect x="128" y="91" width="264" height="156" rx="11" fill="url(#screenGradient)"/>
+              <rect x="148" y="110" width="106" height="115" rx="12" fill="#fff" fill-opacity=".9"/>
+              <circle cx="201" cy="143" r="21" fill="#ffd66e"/>
+              <path d="M164 198c4-24 18-36 37-36s33 12 37 36" fill="#6c5ce7"/>
+              <rect x="269" y="116" width="99" height="12" rx="6" fill="#7b73d9"/>
+              <rect x="269" y="139" width="77" height="8" rx="4" fill="#aaa5ed"/>
+              <rect x="269" y="155" width="91" height="8" rx="4" fill="#aaa5ed"/>
+              <rect x="269" y="182" width="43" height="39" rx="9" fill="#ffc766"/>
+              <rect x="320" y="182" width="48" height="39" rx="9" fill="#69d6b1"/>
+              <path d="M94 263h332l-29 28H123z" fill="#fff" fill-opacity=".95"/>
+              <path d="M214 270h94l-8 9h-78z" fill="#b9b8d7"/>
+              <path d="M169 67l25-13 25 13-25 13z" fill="#ffe58c"/>
+              <path d="M180 72v17c12 11 31 11 43 0V72" fill="#fff3ba"/>
+              <path d="M194 87l-7 12h14z" fill="#ffd45c"/>
+              <circle cx="67" cy="183" r="18" fill="#ffd2b0"/>
+              <path d="M49 182c0-15 8-24 19-24 10 0 17 7 18 20-7-5-13-7-20-7-5 5-10 8-17 11z" fill="#352768"/>
+              <path d="M45 254c2-34 10-53 25-53 16 0 24 19 27 53z" fill="#ffb44f"/>
+              <path d="M76 211l32-39" fill="none" stroke="#ffd2b0" stroke-linecap="round" stroke-width="11"/>
+              <path d="M108 172l9-13" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+            </svg>
+            <div class="hero-float hero-float-two">✨ શીખો અને આગળ વધો</div>
+          </div>
+          <div class="hero-details">
+            <h2>વિવેક સર દ્વારા માર્ગદર્શન</h2>
+            <p>કોર્સ અને સેવાઓ વિશે પૂછો</p>
+            <div class="address">📍 વિવેકાનંદ નગર, 40/80 ફૂટ રોડ,<br>શ્રીજી હોસ્પિટલ સામે, કોઠારિયા મેઈન રોડ, રાજકોટ</div>
+          </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-section" id="course">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2>CCC (Course on Computer Concepts) with AI</h2>
+          <p>કમ્પ્યુટર કૌશલ્ય સાથે આધુનિક AI ટૂલ્સ શીખવાનો કોર્સ.</p>
+        </div>
+        <article class="course-card">
+          <div class="course-title">
+            <div>
+              <h3>કોર્સમાં શું શીખશો?</h3>
+              <p>વિષયોની સંપૂર્ણ યાદી અને બેચની માહિતી માટે સંપર્ક કરો.</p>
+            </div>
+            <span class="course-badge">CCC + AI</span>
+          </div>
+          <ol class="course-list">
+            <li>Windows</li>
+            <li>Paint</li>
+            <li>WordPad</li>
+            <li>ફોટો</li>
+            <li>વિડિયો</li>
+            <li>મ્યુઝિક</li>
+            <li>MS Word with AI</li>
+            <li>MS Excel</li>
+            <li>Advanced Excel</li>
+            <li>MS PowerPoint</li>
+            <li>Smart Presentation</li>
+            <li>Internet</li>
+            <li>E-mail</li>
+            <li>Printer &amp; Scanner</li>
+            <li>AI ChatGPT Tools</li>
+            <li>Gemini Tools અને AIનાં Advanced Features</li>
+          </ol>
+          <div class="course-highlights">
+            <span>સરકારી પ્રમાણપત્ર વિશે માહિતી</span>
+            <span>જોબ પ્લેસમેન્ટ સહાય વિશે માહિતી</span>
+          </div>
+          <div class="course-action">
+            <a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">કોર્સ, ફી અને બેચ માટે WhatsApp કરો ↗</a>
+          </div>
+        </article>
+        <div class="extra-courses" id="extra-courses">
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">📊</div>
+            <h3>Tally Accounting</h3>
+            <p>TallyPrimeનો ઉપયોગ કરીને બિઝનેસ એકાઉન્ટિંગ અને હિસાબની તાલીમ.</p>
+            <ul class="topic-list">
+              <li>એકાઉન્ટિંગના મૂળભૂત સિદ્ધાંતો</li>
+              <li>કંપની, ગ્રુપ અને લેજર બનાવવું</li>
+              <li>વેચાણ, ખરીદી, રસીદ અને ચુકવણીની વાઉચર એન્ટ્રી</li>
+              <li>બેંક એન્ટ્રી અને બેંક રિકન્સિલિએશન</li>
+              <li>સ્ટોક અને ઇન્વેન્ટરી વ્યવસ્થાપન</li>
+              <li>GST બિલિંગ અને GST રિપોર્ટની સમજ</li>
+              <li>Profit &amp; Loss, Balance Sheet અને અન્ય રિપોર્ટ</li>
+            </ul>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">Tally કોર્સ વિશે પૂછો →</a>
+          </article>
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h3>DTP &amp; Graphic Designing</h3>
+            <p>Adobe Photoshop અને CorelDRAW વડે ડિઝાઇન અને પ્રિન્ટ માટેની તૈયારી.</p>
+            <ul class="topic-list">
+              <li>Photoshopમાં ફોટો એડિટિંગ અને ઇમેજ સુધારણા</li>
+              <li>લેયર, ટેક્સ્ટ, કલર અને બેકગ્રાઉન્ડ સાથે કામ</li>
+              <li>CorelDRAWમાં વેક્ટર ડિઝાઇન અને લેઆઉટ</li>
+              <li>લોગો, પોસ્ટર, બેનર અને વિઝિટિંગ કાર્ડ ડિઝાઇન</li>
+              <li>પેમ્ફલેટ અને અન્ય પ્રિન્ટ ડિઝાઇન તૈયાર કરવી</li>
+              <li>પેજ સાઇઝ, રિઝોલ્યુશન અને પ્રિન્ટ-રેડી ફાઇલની સમજ</li>
+            </ul>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">DTP કોર્સ વિશે પૂછો →</a>
+          </article>
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">⌨️</div>
+            <h3>Special Gujarati Typing</h3>
+            <p>ગુજરાતીમાં દસ્તાવેજ અને કમ્પ્યુટર પર કામ માટે ટાઇપિંગનો અભ્યાસ.</p>
+            <ul class="topic-list">
+              <li>ગુજરાતી કીબોર્ડ અને ઇનપુટ સેટિંગનો પરિચય</li>
+              <li>અક્ષર, જોડાક્ષર અને માત્રાની સાચી ટાઇપિંગ</li>
+              <li>ટાઇપિંગની ઝડપ અને ચોકસાઈ વધારવાની પ્રેક્ટિસ</li>
+              <li>ગુજરાતી લખાણને દસ્તાવેજમાં ગોઠવવું અને ફોર્મેટ કરવું</li>
+            </ul>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">ગુજરાતી ટાઇપિંગ કોર્સ વિશે પૂછો →</a>
+          </article>
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">🌐</div>
+            <h3>DCSO — Digital Cyber Seva Operator</h3>
+            <p>ઓનલાઈન પ્લેટફોર્મ પર ડિજિટલ સેવા ઓપરેટર તરીકે કામ કરવાની મૂળભૂત તાલીમ.</p>
+            <ul class="topic-list">
+              <li>ઓનલાઈન સેવા પ્લેટફોર્મનો પરિચય અને ઉપયોગ</li>
+              <li>ઓનલાઈન ફોર્મ ભરવું અને માહિતી ચકાસવી</li>
+              <li>દસ્તાવેજ અપલોડ, ડાઉનલોડ અને પ્રિન્ટ કરવું</li>
+              <li>અરજીની સ્થિતિ તપાસવી અને ડિજિટલ રસીદ સાચવવી</li>
+              <li>ગ્રાહકની માહિતી અને દસ્તાવેજો સુરક્ષિત રીતે સંભાળવા</li>
+            </ul>
+            <p><small>ઉપલબ્ધ સેવાઓ પ્લેટફોર્મ પ્રમાણે બદલાઈ શકે છે. ચોક્કસ સિલેબસ માટે પૂછો.</small></p>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">DCSO કોર્સ વિશે પૂછો →</a>
+          </article>
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">🧒</div>
+            <h3>Special Kids Computer Course</h3>
+            <p>બાળકો માટે સરળ, મજેદાર અને પગથિયાવાર કમ્પ્યુટર શીખવાની શરૂઆત.</p>
+            <ul class="topic-list">
+              <li>કમ્પ્યુટર, માઉસ અને કીબોર્ડનો પરિચય</li>
+              <li>Windowsના મૂળભૂત ઉપયોગની સમજ</li>
+              <li>Paintમાં દોરવું, રંગ ભરવો અને સર્જનાત્મક પ્રવૃત્તિ</li>
+              <li>ગુજરાતી/અંગ્રેજી ટાઇપિંગની શરૂઆત</li>
+              <li>WordPadમાં સરળ લખાણ અને દસ્તાવેજ બનાવવું</li>
+              <li>ઇન્ટરનેટનો સલામત અને જવાબદાર ઉપયોગ</li>
+            </ul>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">Special Kids કોર્સ માટે પૂછો →</a>
+          </article>
+          <article class="extra-course">
+            <div class="service-icon" aria-hidden="true">🗣️</div>
+            <h3>Spoken English &amp; Communication Skills</h3>
+            <p>અંગ્રેજીમાં આત્મવિશ્વાસથી વાતચીત અને રોજિંદા સંવાદની પ્રેક્ટિસ.</p>
+            <ul class="topic-list">
+              <li>રોજિંદા ઉપયોગનાં શબ્દો અને વાક્યો</li>
+              <li>બોલવાની, સાંભળવાની અને ઉચ્ચારની પ્રેક્ટિસ</li>
+              <li>મૂળભૂત વ્યાકરણ અને વાક્ય રચના</li>
+              <li>Self-introduction અને સામાન્ય વાતચીત</li>
+              <li>પ્રેઝન્ટેશન અને જાહેરમાં બોલવાનો આત્મવિશ્વાસ</li>
+              <li>ઇન્ટરવ્યૂ અને કાર્યસ્થળની વાતચીતની તૈયારી</li>
+            </ul>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">English અને Communication ક્લાસ માટે પૂછો →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2>અમારી સેવાઓ</h2>
+          <p>કોર્સ, બેચ, ફી અને સાયબર કેફેમાં ઉપલબ્ધ સેવાઓની તાજી માહિતી માટે પૂછો.</p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">🎓</div>
+            <h3>કમ્પ્યુટર ક્લાસિસ</h3>
+            <p>કોર્સની વિગતો, સમય અને ફી વિશે જાણો.</p>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">કોર્સ વિશે પૂછો →</a>
+          </article>
+          <a class="service cyber-service-link" href="#cyber-services" aria-controls="cyber-services">
+            <div class="service-icon" aria-hidden="true">🖨️</div>
+            <h3>સાયબર કેફે</h3>
+            <p>સરકારી દસ્તાવેજ, પ્રમાણપત્ર અને ઓનલાઈન ફોર્મની સેવાઓ.</p>
+            <span class="text-link">બધી સેવાઓ જોવા ક્લિક કરો →</span>
+          </a>
+          <article class="service">
+            <div class="service-icon" aria-hidden="true">📣</div>
+            <h3>નવી માહિતી અને અપડેટ</h3>
+            <p>નવા કોર્સ, બેચ અથવા દૈનિક ઉપલબ્ધ સેવાઓની માહિતી WhatsApp પર મેળવો.</p>
+            <a class="text-link" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">અપડેટ માટે પૂછો →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <details class="cyber-service-section" id="cyber-services">
+      <summary class="cyber-service-toggle">
+        <div class="wrap">
+          <div class="section-heading">
+            <h2>સાયબર કેફેની સેવાઓ</h2>
+            <p>અમારી સેવાઓ અને સરકારી ફોર્મની બધી વિગતો જોવા અહીં ક્લિક કરો.</p>
+          </div>
+        </div>
+      </summary>
+      <div class="wrap">
+        <div class="cyber-service-card">
+          <p class="document-disclaimer">કોઈ સેવા પર ક્લિક કરીને દસ્તાવેજોની સામાન્ય યાદી જુઓ. અરજીનો પ્રકાર અને હાલના સરકારી નિયમો પ્રમાણે વધારાના દસ્તાવેજ લાગી શકે છે; અરજી પહેલાં સત્તાવાર યાદી ચકાસો. OTP અને પાસવર્ડ કોઈને ન આપો.</p>
+          <div class="cyber-service-list" id="document-services"></div>
+          <div class="cyber-service-note">તાત્કાલિક અને ચોકસાઈપૂર્વક કામગીરી માટે આજે જ સંપર્ક કરો.</div>
+          <p class="course-action">
+            <a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">સાયબર કેફેની સેવા માટે WhatsApp કરો ↗</a>
+          </p>
+        </div>
+      </div>
+    </details>
+
+    <section class="updates" id="updates">
+      <div class="wrap">
+        <div class="update-box">
+          <div>
+            <h2>નવી માહિતી જોઈએ છે?</h2>
+            <p>કોર્સ, બેચ, ફી અથવા આજની ઉપલબ્ધ સેવાઓ માટે WhatsApp પર મેસેજ કરો.</p>
+          </div>
+          <a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">આજની માહિતી પૂછો ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>મળવા અથવા પૂછવા સંપર્ક કરો</h2>
+          <p class="intro">વિવેક સરને કૉલ અથવા WhatsApp કરો. સરનામા માટે નકશો ખોલી શકો છો.</p>
+          <p style="margin-top:22px"><a class="button" href="https://wa.me/917990069436" target="_blank" rel="noopener noreferrer">WhatsApp મેસેજ કરો</a></p>
+        </div>
+        <div class="contact-card">
+          <p><strong>સંપર્ક:</strong> <a href="tel:+917990069436">79900 69436</a></p>
+          <p><strong>સંપર્ક વ્યક્તિ:</strong> વિવેક સર</p>
+          <p><strong>સરનામું:</strong> વિવેકાનંદ નગર, 40/80 ફૂટ રોડ, શ્રીજી હોસ્પિટલ સામે, કોઠારિયા મેઈન રોડ, રાજકોટ</p>
+          <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Vivekanand+Nagar%2C+40%2F80+Feet+Road%2C+Opp+Shreeji+Hospital%2C+Kothariya+Main+Road%2C+Rajkot" target="_blank" rel="noopener noreferrer">Google Maps પર સરનામું જુઓ ↗</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© <span id="year">2026</span> ધર્મનંદન કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે</span>
+      <span>રાજકોટ, ગુજરાત</span>
+      <span id="server-status" aria-live="polite">Python server તપાસી રહ્યા છીએ…</span>
+    </div>
+  </footer>
+  <script>
+    document.documentElement.classList.add("js");
+
+    const revealItems = document.querySelectorAll(
+      ".hero-grid > *, .section-heading, .course-card, .extra-course, .service, .cyber-service-card, .update-box, .contact-card"
+    );
+
+    if ("IntersectionObserver" in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealItems.forEach((item) => {
+        item.setAttribute("data-reveal", "");
+        revealObserver.observe(item);
+      });
+    } else {
+      revealItems.forEach((item) => item.classList.add("is-visible"));
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const documentServices = [
+      {
+        title: "આધાર કાર્ડ — નવું અથવા સુધારો",
+        groups: [
+          { title: "નવું નોંધણી", items: ["UIDAIની માન્ય યાદીમાંથી ઓળખનો પુરાવો", "સરનામાનો પુરાવો અને જન્મ તારીખનો પુરાવો, લાગુ પડતા કિસ્સામાં", "બાળક માટે માતા/પિતા અથવા વાલીનો આધાર અને સંબંધનો પુરાવો"] },
+          { title: "નામ, સરનામું અથવા જન્મ તારીખમાં સુધારો", items: ["આધાર નંબર/કાર્ડ", "જે વિગતોમાં ફેરફાર છે તેના માટે UIDAI-માન્ય સહાયક દસ્તાવેજ", "ચકાસણી માટે નોંધાયેલ મોબાઇલ, જ્યાં લાગુ પડે"] }
+        ]
+      },
+      {
+        title: "PAN કાર્ડ — નવું અથવા સુધારો",
+        groups: [
+          { title: "નવું PAN કાર્ડ", items: ["ઓળખનો પુરાવો", "સરનામાનો પુરાવો", "જન્મ તારીખનો પુરાવો", "ફોટો અને સહી, અરજીના પ્રકાર પ્રમાણે"] },
+          { title: "નામ અથવા અન્ય વિગતોમાં સુધારો", items: ["હાલનું PAN કાર્ડ અથવા PAN નંબર", "ફેરફારની વિનંતીને સમર્થન આપતો દસ્તાવેજ", "અરજીમાં માગેલા ઓળખ/સરનામા/જન્મતારીખના પુરાવા"] }
+        ]
+      },
+      {
+        title: "આયુષ્માન કાર્ડ",
+        groups: [
+          { title: "પાત્રતા તપાસ અને કાર્ડ", items: ["યોજનાની લાભાર્થી યાદીમાં નામ/પરિવારની પાત્રતા", "આધાર અથવા પોર્ટલ સ્વીકારતો ઓળખનો પુરાવો", "રેશન કાર્ડ અથવા પરિવાર ઓળખની વિગતો, ઉપલબ્ધ હોય તો", "OTP ચકાસણી માટે મોબાઇલ નંબર"] },
+          { title: "વિગતો સુધારવી", items: ["હાલનું કાર્ડ અથવા લાભાર્થી ઓળખ", "ફેરફારને સમર્થન આપતો ઓળખ/પરિવારનો પુરાવો"] }
+        ]
+      },
+      {
+        title: "ચૂંટણી કાર્ડ (Voter ID) — નવું અથવા સુધારો",
+        groups: [
+          { title: "નવું નોંધણી", items: ["ઉંમરનો પુરાવો", "રહેઠાણના સરનામાનો પુરાવો", "તાજેતરનો ફોટો અને સંપર્ક વિગતો"] },
+          { title: "સુધારો અથવા સરનામું બદલવું", items: ["હાલનો EPIC/ચૂંટણી કાર્ડ નંબર", "સુધારાની વિગતોને સમર્થન આપતો દસ્તાવેજ", "સરનામું બદલવા માટે નવા સરનામાનો પુરાવો"] }
+        ]
+      },
+      {
+        title: "રેશન કાર્ડ — નવું, સભ્ય ઉમેરવું અથવા સુધારો",
+        groups: [
+          { title: "નવું કાર્ડ અથવા સભ્ય ઉમેરવો", items: ["પરિવારના સભ્યોની ઓળખ અને આધાર વિગતો", "રહેઠાણનો પુરાવો અને પરિવારની વિગતો", "સભ્ય ઉમેરવા માટે જન્મ/લગ્ન અથવા સંબંધનો પુરાવો, લાગુ પડતા કિસ્સામાં"] },
+          { title: "સુધારો અથવા સભ્ય દૂર કરવો", items: ["હાલનું રેશન કાર્ડ", "ફેરફાર પ્રમાણે ઓળખ, સંબંધ અથવા સરનામાનો પુરાવો", "વિભાગ/પોર્ટલ માગે તે ઘોષણા અથવા વધારાનો પુરાવો"] }
+        ]
+      },
+      {
+        title: "ડ્રાઇવિંગ લાઇસન્સ — નવું, રિન્યુઅલ અથવા સુધારો",
+        groups: [
+          { title: "લર્નર/નવું લાઇસન્સ", items: ["ઉંમર અને સરનામાનો માન્ય પુરાવો", "અરજીમાં જરૂરી ફોટો, સહી અને સંપર્ક વિગતો", "લર્નર લાઇસન્સ અથવા પરીક્ષા સંબંધિત વિગતો, લાગુ પડે ત્યારે"] },
+          { title: "રિન્યુઅલ અથવા સુધારો", items: ["હાલનું ડ્રાઇવિંગ લાઇસન્સ", "સરનામા અથવા અન્ય સુધારા માટે સંબંધિત પુરાવો", "મેડિકલ પ્રમાણપત્ર/ફોર્મ, નિયમ મુજબ લાગુ પડતું હોય ત્યારે"] }
+        ]
+      },
+      {
+        title: "ઈ-શ્રમ કાર્ડ",
+        groups: [
+          { title: "નોંધણી અથવા સુધારો", items: ["આધાર નંબર અને આધાર સાથે જોડાયેલ મોબાઇલ/OTP", "વ્યવસાય અને રહેઠાણની વિગતો", "બેંક ખાતાની વિગતો, જ્યાં લાભ માટે જરૂરી હોય", "સુધારા માટે હાલનો UAN નંબર અને સાચી માહિતીનો પુરાવો"] }
+        ]
+      },
+      {
+        title: "ABHA કાર્ડ — નવું અથવા વિગતો સુધારવી",
+        groups: [
+          { title: "નવું ABHA", items: ["આધાર અથવા પોર્ટલ સ્વીકારતી અન્ય ઓળખ પદ્ધતિ", "મોબાઇલ નંબર અને OTP"] },
+          { title: "માહિતી સુધારવી", items: ["હાલનો ABHA નંબર/કાર્ડ", "સુધારેલી માહિતીનો ઓળખ પુરાવો અને ચકાસણી માટે મોબાઇલ"] }
+        ]
+      },
+      {
+        title: "આવકનો દાખલો",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["અરજદારનો ઓળખ અને સરનામાનો પુરાવો", "પરિવારની વિગતો", "નોકરી, ખેતી, વ્યવસાય અથવા અન્ય આવકનો ઉપલબ્ધ પુરાવો", "અરજીમાં માગે તો સોગંદનામું/સ્વ-ઘોષણા અને ફોટો"] }
+        ]
+      },
+      {
+        title: "જાતિનો દાખલો",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["અરજદારનો ઓળખ અને સરનામાનો પુરાવો", "અરજદાર અથવા પરિવારના સભ્યનો જાતિનો આધારભૂત પુરાવો", "શાળા છોડ્યાનું પ્રમાણપત્ર/જૂના રેકોર્ડ, લાગુ પડતા કિસ્સામાં", "પરિવારના સંબંધનો પુરાવો અને જરૂરી ઘોષણા"] }
+        ]
+      },
+      {
+        title: "નોન-ક્રિમીલેયર પ્રમાણપત્ર — નવું અથવા રિન્યુઅલ",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["માન્ય જાતિ પ્રમાણપત્ર", "અરજદાર અને માતા-પિતાના ઓળખ/સરનામાના પુરાવા", "નક્કી કરેલા સમયગાળાના આવકના પુરાવા", "પરિવારની વિગતો અને જરૂરી ઘોષણા", "રિન્યુઅલ માટે જૂનું પ્રમાણપત્ર"] }
+        ]
+      },
+      {
+        title: "બે અને ચાર વ્હીલર વાહન વીમો",
+        groups: [
+          { title: "નવો વીમો/રિન્યુઅલ", items: ["વાહનનું RC અને રજીસ્ટ્રેશન વિગતો", "વાહન માલિકની ઓળખ અને સંપર્ક વિગતો", "રિન્યુઅલ માટે જૂની પોલિસી", "વાહનનું નિરીક્ષણ અથવા વધારાની વિગતો, પોલિસી પ્રમાણે"] },
+          { title: "ક્લેમ", items: ["વીમા પોલિસી અને RC", "ડ્રાઇવિંગ લાઇસન્સ અને ઘટનાની વિગતો", "વીમા કંપની/ક્લેમના પ્રકાર પ્રમાણે અન્ય પુરાવા"] }
+        ]
+      },
+      {
+        title: "મેરેજ સર્ટિફિકેટ",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["વધૂ-વરનો ઉંમર, ઓળખ અને સરનામાનો પુરાવો", "લગ્નનો પુરાવો/ફોટા અથવા લગ્નની વિગતો", "સાક્ષીઓના ઓળખ પુરાવા અને સંપર્ક વિગતો", "અગાઉના લગ્ન/નામમાં ફેરફારનો પુરાવો, લાગુ પડતા કિસ્સામાં"] }
+        ]
+      },
+      {
+        title: "RTOનાં કામ — RC, લાઇસન્સ અને અન્ય સેવા",
+        groups: [
+          { title: "કામ પ્રમાણે બદલાય", items: ["હાલનું RC અથવા ડ્રાઇવિંગ લાઇસન્સ", "વાહન/અરજદારની ઓળખ અને સરનામાનો પુરાવો", "સંબંધિત ફોર્મ, વીમો, PUC અથવા NOC — કામ પ્રમાણે", "માલિકી ટ્રાન્સફર, DL/RC સુધારો અથવા અન્ય કામગીરી માટે વધારાના દસ્તાવેજ લાગી શકે"] }
+        ]
+      },
+      {
+        title: "પાસપોર્ટ — નવું અથવા રિ-ઇશ્યૂ",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["ઓળખ અને હાલના સરનામાનો સ્વીકાર્ય પુરાવો", "જન્મ તારીખનો પુરાવો", "ઓનલાઈન અરજી/એપોઇન્ટમેન્ટની વિગતો", "રિ-ઇશ્યૂ માટે જૂનો પાસપોર્ટ અને ફેરફારને સમર્થન આપતો પુરાવો", "ચોક્કસ યાદી Passport Seva Document Advisor પ્રમાણે ચકાસો"] }
+        ]
+      },
+      {
+        title: "કુંવરબાઈનું મામેરું યોજના ફોર્મ",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["અરજદાર અને કન્યાની ઓળખ/આધાર વિગતો", "લગ્ન પ્રમાણપત્ર અથવા માન્ય લગ્ન પુરાવો", "યોજનાની શરત પ્રમાણે આવક/જાતિનો દાખલો", "બેંક પાસબુકની વિગતો અને મોબાઇલ નંબર", "પાત્રતા અને દસ્તાવેજો ગુજરાત સરકારના હાલના પોર્ટલ પર ચકાસો"] }
+        ]
+      },
+      {
+        title: "બિનઅનામત વર્ગનો દાખલો",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["અરજદારનો ઓળખ અને સરનામાનો પુરાવો", "પરિવારની આવક અને પરિવારની વિગતો", "જરૂરી ઘોષણા/સોગંદનામું અને ફોટો", "અરજીના હેતુ અને હાલના નિયમો પ્રમાણે વધારાના પુરાવા"] }
+        ]
+      },
+      {
+        title: "ઉદ્યમ આધાર (Udyam Registration)",
+        groups: [
+          { title: "નોંધણી", items: ["માલિક/અધિકૃત વ્યક્તિનો આધાર નંબર અને OTP માટે મોબાઇલ", "PAN અને વ્યવસાયની વિગતો", "GSTIN, જ્યાં લાગુ પડે", "બેંક, વ્યવસાયનું સરનામું અને પ્રવૃત્તિની વિગતો"] }
+        ]
+      },
+      {
+        title: "જન્મ પ્રમાણપત્ર — નવું અથવા સુધારો",
+        groups: [
+          { title: "નોંધણી/પ્રમાણપત્ર", items: ["હોસ્પિટલનો જન્મ રેકોર્ડ અથવા જન્મનો પુરાવો", "માતા-પિતાની ઓળખ અને સરનામાની વિગતો", "ઘરેથી જન્મ અથવા વિલંબિત નોંધણી માટે વધારાના પુરાવા"] },
+          { title: "સુધારો/નકલ", items: ["હાલના પ્રમાણપત્ર/નોંધણીની વિગતો", "સુધારવા માટેનો સાચો આધાર દસ્તાવેજ"] }
+        ]
+      },
+      {
+        title: "ગેઝેટ — નામમાં ફેરફાર",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["હાલના નામનો ઓળખ અને સરનામાનો પુરાવો", "નામ બદલવા માટેનું સોગંદનામું/ઘોષણા", "જૂના અને નવા નામને જોડતો સહાયક પુરાવો", "ફોટો/અખબારી જાહેરાત, હાલના નિયમ પ્રમાણે"] }
+        ]
+      },
+      {
+        title: "લાઇટ બિલમાં નામ ટ્રાન્સફર",
+        groups: [
+          { title: "સામાન્ય રીતે જરૂરી", items: ["તાજેતરનું લાઇટ બિલ અને ગ્રાહક/કનેક્શન નંબર", "નવા નામધારકનો ઓળખ અને સરનામાનો પુરાવો", "માલિકી/કબજાનો પુરાવો અથવા ટ્રાન્સફરનું કારણ", "જૂના ગ્રાહકની સંમતિ/NOC અથવા વારસાઈ દસ્તાવેજ, લાગુ પડતા કિસ્સામાં"] }
+        ]
+      },
+      {
+        title: "તમામ પ્રકારનાં ફોર્મ",
+        groups: [
+          { title: "ફોર્મ પ્રમાણે જરૂરી", items: ["ફોર્મનું નામ અથવા લિંક", "અરજદારનો ઓળખ, સરનામું અને મોબાઇલ નંબર", "ફોર્મમાં દર્શાવેલા સહાયક દસ્તાવેજો", "ફોટો/સહી, જ્યાં જરૂરી હોય"] }
+        ]
+      },
+      {
+        title: "તમામ સરકારી ફોર્મ",
+        groups: [
+          { title: "યોજના પ્રમાણે જરૂરી", items: ["ફોર્મ/યોજનાનું નામ અને અરજદારની વિગતો", "ઓળખ અને સરનામાનો પુરાવો", "પાત્રતા પ્રમાણે આવક/જાતિ/શિક્ષણ/બેંક સંબંધિત પુરાવા", "અરજી કરતાં પહેલાં હાલની સત્તાવાર દસ્તાવેજ યાદી ચકાસો"] }
+        ]
+      }
+    ];
+
+    const documentList = document.getElementById("document-services");
+    documentServices.forEach((service) => {
+      const details = document.createElement("details");
+      details.className = "document-service";
+
+      const summary = document.createElement("summary");
+      summary.textContent = service.title;
+
+      const content = document.createElement("div");
+      content.className = "document-content";
+      const brand = document.createElement("p");
+      brand.className = "document-brand";
+      brand.textContent = "ધર્મનંદન કમ્પ્યુટર ક્લાસિસ & સાયબર કેફે";
+      content.appendChild(brand);
+
+      service.groups.forEach((group) => {
+        const groupElement = document.createElement("section");
+        groupElement.className = "document-group";
+        const heading = document.createElement("h4");
+        heading.textContent = group.title;
+        const items = document.createElement("ul");
+        group.items.forEach((item) => {
+          const listItem = document.createElement("li");
+          listItem.textContent = item;
+          items.appendChild(listItem);
+        });
+        groupElement.append(heading, items);
+        content.appendChild(groupElement);
+      });
+
+      details.append(summary, content);
+      documentList.appendChild(details);
+    });
+
+    document.querySelectorAll('a[href="#cyber-services"]').forEach((link) => {
+      link.addEventListener("click", () => {
+        document.getElementById("cyber-services").open = true;
+      });
+    });
+
+    fetch("/api/health")
+      .then((response) => {
+        if (!response.ok) throw new Error("Python server is unavailable");
+        return response.json();
+      })
+      .then((status) => {
+        document.getElementById("server-status").textContent =
+          status.status === "ok" ? "Python backend ચાલુ છે" : "Python backendની સ્થિતિ જાણી શકાઈ નથી";
+      })
+      .catch(() => {
+        document.getElementById("server-status").textContent =
+          "Python server શરૂ કરવા: py server.py";
+      });
+  </script>
+</body>
+</html>
