@@ -1,15 +1,14 @@
-<!doctype html>
+ <!doctype html>
 <html lang="gu">
 <head>
-  <meta name="google-site-verification" content="Ft6C9kDpfzr_a1E1ETlKSHA1SY2XGHsMCobWoCK3k_U" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10172a">
-  <meta name="description" content="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ અને સાયબર કેફે, રાજકોટ. કોર્સ અને સાયબર કેફે સેવાઓ માટે WhatsApp પર સંપર્ક કરો.">
+  <meta name="description" content="રાજકોટમાં ધર્મનંદનના કમ્પ્યુટર કોર્સ અને સાયબર કેફે સેવાઓનું ઓનલાઇન કેટલોગ જુઓ. ભાવ અને ઓર્ડર માટે WhatsApp કરો.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="gu_IN">
   <meta property="og:title" content="ધર્મનંદન કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે | રાજકોટ">
-  <meta property="og:description" content="કમ્પ્યુટર કોર્સ, ડિજિટલ સેવાઓ અને સાયબર કેફે માટે રાજકોટમાં સંપર્ક કરો.">
+  <meta property="og:description" content="કમ્પ્યુટર કોર્સ અને સાયબર કેફે સેવાઓનું ઓનલાઇન કેટલોગ જુઓ; ભાવ અને ઓર્ડર માટે WhatsApp કરો.">
   <meta property="og:url" content="https://dcclasses.onrender.com/">
   <meta property="og:image" content="https://dcclasses.onrender.com/assets/dharmnandan-logo.png">
   <link rel="canonical" href="https://dcclasses.onrender.com/">
@@ -219,6 +218,34 @@
     .hero-details p { margin: 0; color: var(--muted); font-size: .98rem; }
     .hero-details .address { margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.3); font-size: .9rem; }
     .section-heading h2 { color: #27215b; }
+    .shop-section { background: linear-gradient(180deg, #fff 0%, #f8f6ff 100%); }
+    .shop-layout { display: grid; grid-template-columns: minmax(0, 1fr) 290px; align-items: start; gap: 22px; }
+    .shop-products { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .shop-product { overflow: hidden; border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: 0 12px 30px rgba(38,35,88,.06); }
+    .shop-product-image { display: block; width: 100%; aspect-ratio: 16 / 9; }
+    .shop-product-body { padding: 17px; }
+    .shop-product-category { margin: 0 0 5px; color: #6554c0; font-size: .83rem; font-weight: 800; }
+    .shop-product h3 { margin: 0 0 7px; font-size: 1.08rem; line-height: 1.4; }
+    .shop-product-description { min-height: 48px; margin: 0 0 12px; color: var(--muted); font-size: .92rem; }
+    .shop-product-price { margin: 0 0 14px; font-weight: 800; }
+    .shop-product .button { width: 100%; min-height: 44px; padding: 8px 12px; font-size: .93rem; }
+    .cart-box { position: sticky; top: 100px; padding: 20px; border: 1px solid #e4defb; border-radius: 18px; background: #fff; box-shadow: 0 16px 38px rgba(52,42,128,.09); }
+    .cart-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .cart-heading h3 { margin: 0; font-size: 1.18rem; }
+    .cart-count { display: grid; width: 32px; height: 32px; place-items: center; border-radius: 50%; background: #eeeaff; color: #5145e5; font-weight: 800; }
+    .cart-note, .cart-empty, .cart-status { color: var(--muted); font-size: .9rem; }
+    .cart-note { margin: 10px 0 14px; }
+    .cart-empty { margin: 12px 0; }
+    .cart-items { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+    .cart-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 8px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+    .cart-item-name { font-size: .9rem; font-weight: 700; line-height: 1.4; }
+    .cart-item-controls { display: flex; align-items: center; gap: 6px; }
+    .cart-quantity-button, .cart-remove { min-width: 30px; min-height: 30px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--ink); font: inherit; font-weight: 800; cursor: pointer; }
+    .cart-remove { color: #9c3150; }
+    .cart-quantity { min-width: 16px; text-align: center; font-weight: 800; }
+    .cart-order { width: 100%; margin-top: 16px; cursor: pointer; }
+    .cart-order:disabled { cursor: not-allowed; filter: grayscale(.5); opacity: .6; }
+    .cart-status { min-height: 1.4em; margin: 8px 0 0; }
     .course-section { background: linear-gradient(180deg, #f1efff, #f9f8ff); }
     .course-card { border-color: #e2ddff; box-shadow: 0 18px 55px rgba(69,54,164,.1); }
     .course-badge { background: linear-gradient(120deg, #e5e0ff, #fbe0f2); color: #5535b8; }
@@ -245,6 +272,12 @@
       .hero-art { max-width: 500px; margin-inline: auto; }
       .hero-float-one { left: 0; }
       .hero-float-two { right: 0; }
+      .shop-layout { grid-template-columns: 1fr; }
+      .shop-products { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .cart-box { position: static; grid-row: 1; }
+    }
+    @media (max-width: 480px) {
+      .shop-products { grid-template-columns: 1fr; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
@@ -266,6 +299,7 @@
         <span><strong>ધર્મનંદન</strong><small>કમ્પ્યુટર ક્લાસિસ &amp; સાયબર કેફે</small></span>
       </a>
       <div class="nav-links">
+        <a href="#shop">ઓનલાઇન કેટલોગ</a>
         <a href="#course">CCC + AI કોર્સ</a>
         <a href="#extra-courses">અન્ય કોર્સ</a>
         <a href="#cyber-services">સાયબર સેવાઓ</a>
@@ -340,6 +374,30 @@
             <p>કોર્સ અને સેવાઓ વિશે પૂછો</p>
             <div class="address">📍 વિવેકાનંદ નગર, 40/80 ફૂટ રોડ,<br>શ્રીજી હોસ્પિટલ સામે, કોઠારિયા મેઈન રોડ, રાજકોટ</div>
           </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="wrap">
+        <div class="section-heading">
+          <span class="eyebrow">કોર્સ અને ડિજિટલ સેવાઓ</span>
+          <h2>ઓનલાઇન કેટલોગ</h2>
+          <p>તમને જોઈતી વસ્તુ કાર્ટમાં ઉમેરો અને ભાવ/ઉપલબ્ધતા પૂછવા WhatsApp પર મોકલો. ભાવ સાઇટ પર બતાવેલા નથી.</p>
+        </div>
+        <div class="shop-layout">
+          <div class="shop-products" id="shop-products" aria-label="કોર્સ અને સેવાઓ"></div>
+          <aside class="cart-box" aria-labelledby="cart-title">
+            <div class="cart-heading">
+              <h3 id="cart-title">તમારી પસંદગી</h3>
+              <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+            </div>
+            <p class="cart-note">ચુકવણી અહીં થતી નથી. ઓર્ડર WhatsApp પર મોકલીને ભાવ અને વિગતો નક્કી કરો.</p>
+            <p class="cart-empty" id="cart-empty">હજુ કોઈ વસ્તુ ઉમેરેલી નથી.</p>
+            <ul class="cart-items" id="cart-items" aria-label="કાર્ટની વસ્તુઓ"></ul>
+            <button class="button cart-order" id="cart-order" type="button" disabled>WhatsApp પર ભાવ પૂછો</button>
+            <p class="cart-status" id="cart-status" aria-live="polite"></p>
           </aside>
         </div>
       </div>
@@ -562,8 +620,259 @@
   <script>
     document.documentElement.classList.add("js");
 
+    const shopProducts = [
+      { id: "ccc-ai", title: "CCC કમ્પ્યુટર કોર્સ સાથે AI", category: "કમ્પ્યુટર કોર્સ", description: "કમ્પ્યુટર કૌશલ્ય, MS Office અને AI ટૂલ્સ શીખો.", icon: "🎓", colors: ["#6255e9", "#bd68d4"] },
+      { id: "tally", title: "Tally Accounting", category: "કમ્પ્યુટર કોર્સ", description: "TallyPrime, એકાઉન્ટિંગ, GST અને બિઝનેસ રિપોર્ટ.", icon: "📊", colors: ["#ef9b42", "#df5f8a"] },
+      { id: "dtp", title: "DTP & Graphic Designing", category: "કમ્પ્યુટર કોર્સ", description: "Photoshop અને CorelDRAW વડે ડિઝાઇન શીખો.", icon: "🎨", colors: ["#dd5c9d", "#8d58d8"] },
+      { id: "typing", title: "Special Gujarati Typing", category: "કમ્પ્યુટર કોર્સ", description: "ગુજરાતી ટાઇપિંગની ઝડપ અને ચોકસાઈની પ્રેક્ટિસ.", icon: "⌨️", colors: ["#458dc8", "#6255e9"] },
+      { id: "dcso", title: "DCSO — Digital Cyber Seva Operator", category: "કમ્પ્યુટર કોર્સ", description: "ઓનલાઈન ફોર્મ અને ડિજિટલ સેવાઓની તાલીમ.", icon: "🌐", colors: ["#19a981", "#4b8ed1"] },
+      { id: "kids", title: "Special Kids Computer Course", category: "કમ્પ્યુટર કોર્સ", description: "બાળકો માટે સરળ અને મજેદાર કમ્પ્યુટર શિક્ષણ.", icon: "🧒", colors: ["#f0a844", "#e76c87"] },
+      { id: "english", title: "Spoken English & Communication", category: "કમ્પ્યુટર કોર્સ", description: "રોજિંદી વાતચીત અને આત્મવિશ્વાસ માટે પ્રેક્ટિસ.", icon: "🗣️", colors: ["#6b64d8", "#479ac1"] },
+      { id: "forms", title: "સરકારી ફોર્મ ભરવાની મદદ", category: "સાયબર કેફે સેવા", description: "ફોર્મ અને અરજીની પ્રક્રિયા માટે માર્ગદર્શન.", icon: "📄", colors: ["#4987d0", "#6255e9"] },
+      { id: "certificates", title: "પ્રમાણપત્ર માટે ઓનલાઈન અરજી", category: "સાયબર કેફે સેવા", description: "દસ્તાવેજોની યાદી અને અરજી વિશે પૂછો.", icon: "📑", colors: ["#19a981", "#40a9be"] },
+      { id: "print-scan", title: "પ્રિન્ટિંગ અને સ્કેનિંગ", category: "સાયબર કેફે સેવા", description: "દસ્તાવેજ પ્રિન્ટ અને સ્કેન કરવાની સેવા.", icon: "🖨️", colors: ["#e59b3e", "#d65f8f"] },
+      { id: "digital", title: "અન્ય ડિજિટલ સેવાઓ", category: "સાયબર કેફે સેવા", description: "ઉપલબ્ધ સેવા અને તેના ભાવ WhatsApp પર પૂછો.", icon: "💻", colors: ["#7359d9", "#3c9bba"] }
+    ];
+
+    const cart = new Map();
+    const productGrid = document.getElementById("shop-products");
+    const cartItems = document.getElementById("cart-items");
+    const cartCount = document.getElementById("cart-count");
+    const cartEmpty = document.getElementById("cart-empty");
+    const cartOrder = document.getElementById("cart-order");
+    const cartStatus = document.getElementById("cart-status");
+    const svgNamespace = "http://www.w3.org/2000/svg";
+
+    function trackAnalyticsEvent(eventType, itemId) {
+      const event = { event: eventType };
+      if (itemId) event.item = itemId;
+      fetch("/api/analytics", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(event),
+        keepalive: true
+      }).then((response) => {
+        if (!response.ok) throw new Error("Analytics request failed: " + response.status);
+      }).catch((error) => {
+        console.warn("Website analytics event could not be recorded.", error);
+      });
+    }
+
+    document.addEventListener("click", (event) => {
+      if (!(event.target instanceof Element)) return;
+      const link = event.target.closest("a[href]");
+      if (!link) return;
+      if (link.href.startsWith("https://wa.me/")) {
+        trackAnalyticsEvent("whatsapp_click");
+      } else if (link.getAttribute("href").startsWith("tel:")) {
+        trackAnalyticsEvent("call_click");
+      }
+      if (link.dataset.analyticsProduct) {
+        trackAnalyticsEvent("product_inquiry", link.dataset.analyticsProduct);
+      }
+    });
+
+    function createProductIllustration(product) {
+      const svg = document.createElementNS(svgNamespace, "svg");
+      svg.setAttribute("class", "shop-product-image");
+      svg.setAttribute("viewBox", "0 0 640 360");
+      svg.setAttribute("role", "img");
+      svg.setAttribute("aria-label", product.title + " માટેનું ચિત્ર");
+
+      const background = document.createElementNS(svgNamespace, "rect");
+      background.setAttribute("width", "640");
+      background.setAttribute("height", "360");
+      background.setAttribute("fill", product.colors[0]);
+      svg.appendChild(background);
+
+      const glow = document.createElementNS(svgNamespace, "circle");
+      glow.setAttribute("cx", "500");
+      glow.setAttribute("cy", "60");
+      glow.setAttribute("r", "155");
+      glow.setAttribute("fill", product.colors[1]);
+      glow.setAttribute("opacity", ".8");
+      svg.appendChild(glow);
+
+      const panel = document.createElementNS(svgNamespace, "rect");
+      panel.setAttribute("x", "207");
+      panel.setAttribute("y", "52");
+      panel.setAttribute("width", "226");
+      panel.setAttribute("height", "226");
+      panel.setAttribute("rx", "34");
+      panel.setAttribute("fill", "#ffffff");
+      panel.setAttribute("fill-opacity", ".94");
+      svg.appendChild(panel);
+
+      const icon = document.createElementNS(svgNamespace, "text");
+      icon.setAttribute("x", "320");
+      icon.setAttribute("y", "204");
+      icon.setAttribute("text-anchor", "middle");
+      icon.setAttribute("font-size", "112");
+      icon.textContent = product.icon;
+      svg.appendChild(icon);
+
+      const label = document.createElementNS(svgNamespace, "text");
+      label.setAttribute("x", "320");
+      label.setAttribute("y", "327");
+      label.setAttribute("text-anchor", "middle");
+      label.setAttribute("fill", "#ffffff");
+      label.setAttribute("font-family", "sans-serif");
+      label.setAttribute("font-size", "20");
+      label.setAttribute("font-weight", "700");
+      label.setAttribute("letter-spacing", "3");
+      label.textContent = "DHARMNANDAN";
+      svg.appendChild(label);
+      return svg;
+    }
+
+    shopProducts.forEach((product) => {
+      const card = document.createElement("article");
+      card.className = "shop-product";
+      card.dataset.productId = product.id;
+      card.appendChild(createProductIllustration(product));
+
+      const body = document.createElement("div");
+      body.className = "shop-product-body";
+
+      const category = document.createElement("p");
+      category.className = "shop-product-category";
+      category.textContent = product.category;
+
+      const title = document.createElement("h3");
+      title.textContent = product.title;
+
+      const description = document.createElement("p");
+      description.className = "shop-product-description";
+      description.textContent = product.description;
+
+      const price = document.createElement("p");
+      price.className = "shop-product-price";
+      price.textContent = "ભાવ WhatsApp પર પૂછો";
+
+      const inquiryButton = document.createElement("a");
+      inquiryButton.className = "button button-blue";
+      inquiryButton.href = "https://wa.me/917990069436?text=" +
+        encodeURIComponent("નમસ્તે, મને " + product.title + " વિશે ભાવ અને વિગતો જણાવશો?");
+      inquiryButton.target = "_blank";
+      inquiryButton.rel = "noopener noreferrer";
+      inquiryButton.dataset.analyticsProduct = product.id;
+      inquiryButton.textContent = "WhatsApp પર પૂછો";
+
+      const addButton = document.createElement("button");
+      addButton.className = "button";
+      addButton.type = "button";
+      addButton.textContent = "કાર્ટમાં ઉમેરો";
+      addButton.setAttribute("aria-label", product.title + " કાર્ટમાં ઉમેરો");
+      addButton.addEventListener("click", () => {
+        cart.set(product.id, (cart.get(product.id) || 0) + 1);
+        trackAnalyticsEvent("cart_add", product.id);
+        renderCart();
+        cartStatus.textContent = product.title + " કાર્ટમાં ઉમેર્યું.";
+      });
+
+      body.append(category, title, description, price, inquiryButton, addButton);
+      card.appendChild(body);
+      productGrid.appendChild(card);
+    });
+
+    if ("IntersectionObserver" in window) {
+      const seenProducts = new Set();
+      const productObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          const productId = entry.target.dataset.productId;
+          if (entry.isIntersecting && !seenProducts.has(productId)) {
+            seenProducts.add(productId);
+            trackAnalyticsEvent("product_view", productId);
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+      document.querySelectorAll(".shop-product").forEach((card) => {
+        productObserver.observe(card);
+      });
+    }
+
+    function renderCart() {
+      cartItems.replaceChildren();
+      const totalItems = Array.from(cart.values()).reduce((sum, quantity) => sum + quantity, 0);
+      cartCount.textContent = String(totalItems);
+      cartEmpty.hidden = totalItems > 0;
+      cartOrder.disabled = totalItems === 0;
+
+      cart.forEach((quantity, productId) => {
+        const product = shopProducts.find((item) => item.id === productId);
+        if (!product) return;
+
+        const row = document.createElement("li");
+        row.className = "cart-item";
+        const name = document.createElement("span");
+        name.className = "cart-item-name";
+        name.textContent = product.title;
+
+        const controls = document.createElement("div");
+        controls.className = "cart-item-controls";
+
+        const decrease = document.createElement("button");
+        decrease.className = "cart-quantity-button";
+        decrease.type = "button";
+        decrease.textContent = "−";
+        decrease.setAttribute("aria-label", product.title + "ની સંખ્યા ઘટાડો");
+        decrease.addEventListener("click", () => {
+          if (quantity <= 1) cart.delete(productId);
+          else cart.set(productId, quantity - 1);
+          renderCart();
+          cartStatus.textContent = product.title + "ની કાર્ટ સંખ્યા અપડેટ કરી.";
+        });
+
+        const quantityLabel = document.createElement("span");
+        quantityLabel.className = "cart-quantity";
+        quantityLabel.textContent = String(quantity);
+
+        const increase = document.createElement("button");
+        increase.className = "cart-quantity-button";
+        increase.type = "button";
+        increase.textContent = "+";
+        increase.setAttribute("aria-label", product.title + "ની સંખ્યા વધારો");
+        increase.addEventListener("click", () => {
+          cart.set(productId, quantity + 1);
+          renderCart();
+          cartStatus.textContent = product.title + "ની કાર્ટ સંખ્યા અપડેટ કરી.";
+        });
+
+        const remove = document.createElement("button");
+        remove.className = "cart-remove";
+        remove.type = "button";
+        remove.textContent = "×";
+        remove.setAttribute("aria-label", product.title + " કાર્ટમાંથી કાઢો");
+        remove.addEventListener("click", () => {
+          cart.delete(productId);
+          renderCart();
+          cartStatus.textContent = product.title + " કાર્ટમાંથી કાઢ્યું.";
+        });
+
+        controls.append(decrease, quantityLabel, increase, remove);
+        row.append(name, controls);
+        cartItems.appendChild(row);
+      });
+    }
+
+    cartOrder.addEventListener("click", () => {
+      if (cart.size === 0) return;
+      const orderLines = Array.from(cart, ([productId, quantity]) => {
+        const product = shopProducts.find((item) => item.id === productId);
+        return product ? product.title + " × " + quantity : "";
+      }).filter(Boolean);
+      const message = "નમસ્તે, મને આ કોર્સ/સેવાઓ વિશે ભાવ અને ઉપલબ્ધતા જણાવશો?\n" +
+        orderLines.map((line) => "• " + line).join("\n");
+      cart.forEach((_, productId) => {
+        trackAnalyticsEvent("product_inquiry", productId);
+      });
+      trackAnalyticsEvent("order_whatsapp_click");
+      window.location.href = "https://wa.me/917990069436?text=" + encodeURIComponent(message);
+    });
+
     const revealItems = document.querySelectorAll(
-      ".hero-grid > *, .section-heading, .course-card, .extra-course, .service, .cyber-service-card, .update-box, .contact-card"
+      ".hero-grid > *, .section-heading, .course-card, .extra-course, .service, .shop-product, .cart-box, .cyber-service-card, .update-box, .contact-card"
     );
 
     if ("IntersectionObserver" in window) {
