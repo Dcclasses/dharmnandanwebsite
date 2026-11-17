@@ -32,6 +32,7 @@ EVENT_TYPES = (
     "product_inquiry",
 )
 PRODUCTS = {
+    "group-tuition": "ગ્રુપ ટ્યુશન — ધોરણ 1થી12",
     "ccc-ai": "CCC કમ્પ્યુટર કોર્સ સાથે AI",
     "tally": "Tally Accounting",
     "dtp": "DTP & Graphic Designing",
